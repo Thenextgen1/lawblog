@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.nav-item {
+    color: black !important;
+}
+.focus {
+    border-radius: 15px;
+    color: #22d1ee;
+    border-color: #22d1ee;
+}
+.bi-search {
+    margin-left: 1.5em;
+}
+#sammy {
+    color: black;
+}
+.focus:hover {
+    background-color: black;
+    color: blanchedalmond;
+    border-color: black;
+}
+.fantasy {
+    color: #43dde6;
+    letter-spacing: 2px;
+}
+h1 {
+    font-size: 1.5em;
+}
+.side {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 90px;
+    text-align: center;
+}
+.lead {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 90px;
+    text-align: center;
+}
+.tenet {
+    font-size: 2rem;
+    font-weight: 400;
+}
+@media(max-width: 1200px) {
+    .side,
+    .lead {
+        margin-left: auto;
+    }
+}
